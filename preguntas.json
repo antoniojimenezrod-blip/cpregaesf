@@ -201,7 +201,7 @@
       "D": "Zona A: zona de seguridad para los trabajos. Zona B: zona de alto riesgo para los trabajos. Zona C: zona de peligro para los trabajos."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro1-1.png"
+    "imagen": "/Imagenes/Libro1-1.png"
   },
   {
     "id": "L1-001",
@@ -303,7 +303,7 @@
       "D": "Basta con que la locomotora haya rebasado la señal E2."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro1-2.png"
+    "imagen": "/Imagenes/Libro1-2.png"
   },
   {
     "id": "L1-001-3",
@@ -405,7 +405,7 @@
       "D": "Trayecto E1-E2: PBA. Trayecto E2-E3: PCA."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro1-3.png"
+    "imagen": "/Imagenes/Libro1-3.png"
   },
   {
     "id": "L1-004",
@@ -1119,7 +1119,7 @@
       "D": "①Señal de salida interior. ②Señal avanzada. ③Señal de entrada interior. ④Señal intermedia."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro1-4.png"
+    "imagen": "/Imagenes/Libro1-4.png"
   },
   {
     "id": "L1-011-3",
@@ -1136,7 +1136,7 @@
       "D": "(1) señal avanzada, (2) señal de entrada, (3) señal salida, (4) señal de entrada interior, (5) señal avanzada, (6) señal de salida interior, (7) señal de salida."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro1-5.png"
+    "imagen": "/Imagenes/Libro1-5.png"
   },
   {
     "id": "L1-028",
@@ -1204,7 +1204,7 @@
       "D": "Señal de entrada interior."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro1-6.png"
+    "imagen": "/Imagenes/Libro1-6.png"
   },
   {
     "id": "L1-035",
@@ -1238,7 +1238,7 @@
       "D": "1: Señal de retroceso; 2: señal de salida; 3: señal de maniobras; 4: señal intermedia; 5: señal de retroceso; 6: señal de salida."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro1-7.png"
+    "imagen": "/Imagenes/Libro1-7.png"
   },
   {
     "id": "L1-029",
@@ -1306,7 +1306,7 @@
       "D": "Señales ①, ④ y ⑧."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro1-9.png"
+    "imagen": "/Imagenes/Libro1-9.png"
   },
   {
     "id": "L1-011-4",
@@ -1357,7 +1357,7 @@
       "D": "①: señal de salida; ②: señal de maniobras; ③: señal de liberación; ④: señal preavanzada; ⑤: señal avanzada."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro1-10.png"
+    "imagen": "/Imagenes/Libro1-10.png"
   },
   {
     "id": "L1-010-4",
@@ -1374,7 +1374,7 @@
       "D": "Cambiador de hilo y permite cambiar el ancho de la rodadura de los trenes."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro1-11.png"
+    "imagen": "/Imagenes/Libro1-11.png"
   },
   {
     "id": "L1-003-8",
@@ -1527,7 +1527,7 @@
       "D": "Entre el P.K. 149+300 y el P.K. 151+900 existe una LTV/CSV de 90 km/h"
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro1-12.png"
+    "imagen": "/Imagenes/Libro1-12.png"
   },
   {
     "id": "L1-002-5",
@@ -1629,7 +1629,7 @@
       "D": "Con la orden de la señal de salida y la señal de paso."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro1-13.png"
+    "imagen": "/Imagenes/Libro1-13.png"
   },
   {
     "id": "L1-012-4",
@@ -1765,7 +1765,7 @@
       "D": "Con la orden de la señal de salida."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro1-14.png"
+    "imagen": "/Imagenes/Libro1-14.png"
   },
   {
     "id": "L1-005-5",
@@ -1867,7 +1867,7 @@
       "D": "Presentando el Responsable de Circulación la señal de paso."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro1-15.png"
+    "imagen": "/Imagenes/Libro1-15.png"
   },
   {
     "id": "L1-036",
@@ -1901,7 +1901,7 @@
       "D": "No, es necesario que el Responsable de Circulación le presente la señal de marche el tren con los cuatro elementos (gorra, silbato, banderín o linterna y posición)."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro1-16.png"
+    "imagen": "/Imagenes/Libro1-16.png"
   },
   {
     "id": "L1-040-3",
@@ -2037,7 +2037,7 @@
       "D": "BLA."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro1-17.png"
+    "imagen": "/Imagenes/Libro1-17.png"
   },
   {
     "id": "L1-007-6",
@@ -2326,7 +2326,7 @@
       "D": "La estación dispone de un paso a nivel automático."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro1-18.png"
+    "imagen": "/Imagenes/Libro1-18.png"
   },
   {
     "id": "L1-026-3",
@@ -2394,7 +2394,7 @@
       "D": "3 para el tren que circule en sentido normal y 1 para el que circule a contravía."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro1-19.png"
+    "imagen": "/Imagenes/Libro1-19.png"
   },
   {
     "id": "L1-011-7",
@@ -2445,7 +2445,7 @@
       "D": "Hay 2 cantones. La orden de marcha se dará con la orden de la señal de salida."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro1-20.png"
+    "imagen": "/Imagenes/Libro1-20.png"
   },
   {
     "id": "L1-031-4",
@@ -2547,7 +2547,7 @@
       "D": "4 cantones de BCA y 2 cantones de BSL."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro1-21.png"
+    "imagen": "/Imagenes/Libro1-21.png"
   },
   {
     "id": "L1-008-7",
@@ -3295,7 +3295,7 @@
       "D": "Las señales representadas en D."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-1.png"
+    "imagen": "/Imagenes/Libro2-1.png"
   },
   {
     "id": "L2-015",
@@ -3312,7 +3312,7 @@
       "D": "No exceder de 160 km/h al paso por la estación."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-2.png"
+    "imagen": "/Imagenes/Libro2-2.png"
   },
   {
     "id": "L2-004",
@@ -3329,7 +3329,7 @@
       "D": "No excederá la velocidad en km/h que indique el número de la pantalla, al pasar por la señal siguiente, salvo que ésta última ordene vía libre, vía libre condicional o preanuncio de parada."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-3.png"
+    "imagen": "/Imagenes/Libro2-3.png"
   },
   {
     "id": "L2-014",
@@ -3346,7 +3346,7 @@
       "D": "No excederá la velocidad que ordene el número de la pantalla al pasar por la señal siguiente, salvo que esta última ordene vía libre, vía libre condicional o preanuncio de parada."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-4.png"
+    "imagen": "/Imagenes/Libro2-4.png"
   },
   {
     "id": "L2-005-2",
@@ -3363,7 +3363,7 @@
       "D": "Si nada se opone, circulará normalmente sin exceder de 120 km/h, al permitirlo la señal de entrada en indicación de vía libre."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-5.png"
+    "imagen": "/Imagenes/Libro2-5.png"
   },
   {
     "id": "L2-004-2",
@@ -3380,7 +3380,7 @@
       "D": "No hay restricción de velocidad ya que el itinerario está establecido por vía directa."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-6.png"
+    "imagen": "/Imagenes/Libro2-6.png"
   },
   {
     "id": "L2-002-2",
@@ -3397,7 +3397,7 @@
       "D": "Agujas ①, ③, ⑤ y ⑦a 40 km/h."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-7.png"
+    "imagen": "/Imagenes/Libro2-7.png"
   },
   {
     "id": "L2-017",
@@ -3414,7 +3414,7 @@
       "D": "La velocidad máxima de paso por las agujas de salida [D] es 120 km/h."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-8.png"
+    "imagen": "/Imagenes/Libro2-8.png"
   },
   {
     "id": "L2-025-2",
@@ -3431,7 +3431,7 @@
       "D": "① y ③: 40 km/h. ⑤ y ⑦: 30 km/h."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-9.png"
+    "imagen": "/Imagenes/Libro2-9.png"
   },
   {
     "id": "L2-002-3",
@@ -3448,7 +3448,7 @@
       "D": "No exceder la velocidad en km/h que indica el número de la pantalla al pasar por la señal siguiente, salvo que esta ordene vía libre, vía libre condicional o preanuncio de parada."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-10.png"
+    "imagen": "/Imagenes/Libro2-10.png"
   },
   {
     "id": "L2-003",
@@ -3465,7 +3465,7 @@
       "D": "160 km/h"
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-11.png"
+    "imagen": "/Imagenes/Libro2-11.png"
   },
   {
     "id": "L2-015-2",
@@ -3482,7 +3482,7 @@
       "D": "140 km/h al paso por cada una de ellas."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-12.png"
+    "imagen": "/Imagenes/Libro2-12.png"
   },
   {
     "id": "L2-024",
@@ -3499,7 +3499,7 @@
       "D": "120 km/h."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-13.png"
+    "imagen": "/Imagenes/Libro2-13.png"
   },
   {
     "id": "L2-013",
@@ -3516,7 +3516,7 @@
       "D": "① 30 km/h. ② 100 km/h."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-14.png"
+    "imagen": "/Imagenes/Libro2-14.png"
   },
   {
     "id": "L2-004-3",
@@ -3533,7 +3533,7 @@
       "D": "Esta secuencia de señales no impone restricción de velocidad máxima al paso por las agujas situadas a continuación de la señal de entrada."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-15.png"
+    "imagen": "/Imagenes/Libro2-15.png"
   },
   {
     "id": "L2-002-4",
@@ -3567,7 +3567,7 @@
       "D": "50 km/h."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-16.png"
+    "imagen": "/Imagenes/Libro2-16.png"
   },
   {
     "id": "L2-004-4",
@@ -3584,7 +3584,7 @@
       "D": "B 160 Km/h, C 160 Km/h, D 200 Km/h, E´1 100 Km/h, Agujas ① y ③ a 30 Km/h."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-17.png"
+    "imagen": "/Imagenes/Libro2-17.png"
   },
   {
     "id": "L2-023",
@@ -3601,7 +3601,7 @@
       "D": "Aguja ③: 30 km/h; aguja ①: 80 km/h; señal 123: 90 km/h."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-18.png"
+    "imagen": "/Imagenes/Libro2-18.png"
   },
   {
     "id": "L2-013-2",
@@ -3618,7 +3618,7 @@
       "D": "La secuencia de señales no establece ninguna restricción de velocidad al paso por la aguja situada tras la señal R2."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-19.png"
+    "imagen": "/Imagenes/Libro2-19.png"
   },
   {
     "id": "L2-019-2",
@@ -3635,7 +3635,7 @@
       "D": "Por las agujas ①, ③, ⑤ y ⑦ 30 km/h."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-20.png"
+    "imagen": "/Imagenes/Libro2-20.png"
   },
   {
     "id": "L2-020",
@@ -3652,7 +3652,7 @@
       "D": "①: 120 km/h, ②: 100 km/h y ③: 100 km/h."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-21.png"
+    "imagen": "/Imagenes/Libro2-21.png"
   },
   {
     "id": "L2-020-2",
@@ -3669,7 +3669,7 @@
       "D": "Sin límite al encontrarse en vía a vía directa la señal indicadora de entrada."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-22.png"
+    "imagen": "/Imagenes/Libro2-22.png"
   },
   {
     "id": "L2-015-4",
@@ -3686,7 +3686,7 @@
       "D": "30 km/h por las agujas ① y ②. 50 km/h por las agujas ③, ④ y ⑤."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-23.png"
+    "imagen": "/Imagenes/Libro2-23.png"
   },
   {
     "id": "L2-016",
@@ -3703,7 +3703,7 @@
       "D": "①: 100 km/h; ⑩ y ⑧: 60 km/h; ⑥: 30 km/h."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-24.png"
+    "imagen": "/Imagenes/Libro2-24.png"
   },
   {
     "id": "L2-018",
@@ -3720,7 +3720,7 @@
       "D": "El Maquinista no excederá de 30 km/h al paso por la aguja ①."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-25.png"
+    "imagen": "/Imagenes/Libro2-25.png"
   },
   {
     "id": "L2-023-2",
@@ -3737,7 +3737,7 @@
       "D": "100 km/h por las agujas de entrada y 120 km/h por las agujas de salida."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-26.png"
+    "imagen": "/Imagenes/Libro2-26.png"
   },
   {
     "id": "L2-003-2",
@@ -3754,7 +3754,7 @@
       "D": "El Reglamento de Circulación Ferroviaria establece la prohibición de poner estas dos señales de forma consecutiva."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-27.png"
+    "imagen": "/Imagenes/Libro2-27.png"
   },
   {
     "id": "L2-007",
@@ -3771,7 +3771,7 @@
       "D": "La señal representada en D."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-28.png"
+    "imagen": "/Imagenes/Libro2-28.png"
   },
   {
     "id": "L2-010-2",
@@ -3788,7 +3788,7 @@
       "D": "Se detendrá ante la señal E'1, informará de la anormalidad, rebasará la señal E'1 sin exceder de 40 Km/h hasta llegar a la señal E1 y efectuará su entrada en la estación sin ninguna limitación de velocidad al paso por las agujas 1 y 3."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-29.png"
+    "imagen": "/Imagenes/Libro2-29.png"
   },
   {
     "id": "L2-014-2",
@@ -3805,7 +3805,7 @@
       "D": "Tras efectuar una parada de 3 minutos ante la señal avanzada, la rebasará. Circulará con marcha a la vista hasta la señal de entrada y no excederá de 30 km/h al paso por las agujas de entrada."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-30.png"
+    "imagen": "/Imagenes/Libro2-30.png"
   },
   {
     "id": "L2-006",
@@ -3822,7 +3822,7 @@
       "D": "Carece de significado, puesto que es una señal válida únicamente para Nivel 2."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-31.png"
+    "imagen": "/Imagenes/Libro2-31.png"
   },
   {
     "id": "L2-006-2",
@@ -3839,7 +3839,7 @@
       "D": "Aproximarse a ella sin rebasar la velocidad de liberación, para recibir la nueva MA."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-32.png"
+    "imagen": "/Imagenes/Libro2-32.png"
   },
   {
     "id": "L2-014-3",
@@ -3856,7 +3856,7 @@
       "D": "En ningún caso podrá continuar la marcha con ninguno de estos aspectos."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-33.png"
+    "imagen": "/Imagenes/Libro2-33.png"
   },
   {
     "id": "L2-021",
@@ -3873,7 +3873,7 @@
       "D": "Parar ante la misma sin rebasarla, y esperar a que la señal permita el paso."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-34.png"
+    "imagen": "/Imagenes/Libro2-34.png"
   },
   {
     "id": "L2-026",
@@ -3890,7 +3890,7 @@
       "D": "Se detendrá ante la señal sin rebasarla, reanudando la marcha cuando la señal presente el aspecto de vía libre para poder ampliar la MA."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-35.png"
+    "imagen": "/Imagenes/Libro2-35.png"
   },
   {
     "id": "L2-021-2",
@@ -3907,7 +3907,7 @@
       "D": "D."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-36.png"
+    "imagen": "/Imagenes/Libro2-36.png"
   },
   {
     "id": "L2-027",
@@ -3924,7 +3924,7 @@
       "D": "Con cualquiera de ellas si se lo permite el DMI."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-37.png"
+    "imagen": "/Imagenes/Libro2-37.png"
   },
   {
     "id": "L2-004-5",
@@ -3958,7 +3958,7 @@
       "D": "No efectuará parada, avanzará con marcha a la vista, si nada se opone, hasta llegar al punto de estacionamiento, el piquete de la vía de estacionamiento o la señal siguiente."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-38.png"
+    "imagen": "/Imagenes/Libro2-38.png"
   },
   {
     "id": "L2-007-2",
@@ -3975,7 +3975,7 @@
       "D": "Ordena iniciar o continuar el avance con marcha de maniobras hasta la señal siguiente o hasta el piquete de la vía de estacionamiento."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-39.png"
+    "imagen": "/Imagenes/Libro2-39.png"
   },
   {
     "id": "L2-020-3",
@@ -3992,7 +3992,7 @@
       "D": "Circulará con marcha de maniobras sin exceder de 10 km/h al paso por las agujas de entrada hasta que las haya rebasado por completo."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-40.png"
+    "imagen": "/Imagenes/Libro2-40.png"
   },
   {
     "id": "L2-015-5",
@@ -4009,7 +4009,7 @@
       "D": "Ordena continuar la marcha con marcha a la vista, si nada se opone, hasta llegar al punto de estacionamiento o la siguiente señal."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-41.png"
+    "imagen": "/Imagenes/Libro2-41.png"
   },
   {
     "id": "L2-024-2",
@@ -4026,7 +4026,7 @@
       "D": "Señal D"
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-42.png"
+    "imagen": "/Imagenes/Libro2-42.png"
   },
   {
     "id": "L2-015-6",
@@ -4043,7 +4043,7 @@
       "D": "Circulará con marcha de maniobras sin exceder de 10 km/h al paso por las agujas de entrada hasta que las haya rebasado por completo."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-43.png"
+    "imagen": "/Imagenes/Libro2-43.png"
   },
   {
     "id": "L2-001-2",
@@ -4060,7 +4060,7 @@
       "D": "La señal representada en D."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-44.png"
+    "imagen": "/Imagenes/Libro2-44.png"
   },
   {
     "id": "L2-002-5",
@@ -4077,7 +4077,7 @@
       "D": "Circulará normalmente por el PN o grupo de PN, si nada se opone. Además, informará del estado de la señal al Responsable de Circulación de la primera estación donde efectúe parada."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-45.png"
+    "imagen": "/Imagenes/Libro2-45.png"
   },
   {
     "id": "L2-006-3",
@@ -4111,7 +4111,7 @@
       "D": "Procederá como si la señal de protección de PN estuviese en indicación de PN sin protección y reanudará la marcha normal cuando el último vehículo haya rebasado el PN."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-46.png"
+    "imagen": "/Imagenes/Libro2-46.png"
   },
   {
     "id": "L2-016-2",
@@ -4128,7 +4128,7 @@
       "D": "Considerará ambos pasos a nivel como desprotegidos."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-47.png"
+    "imagen": "/Imagenes/Libro2-47.png"
   },
   {
     "id": "L2-027-2",
@@ -4145,7 +4145,7 @@
       "D": "Circulará normalmente, si nada se opone."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-48.png"
+    "imagen": "/Imagenes/Libro2-48.png"
   },
   {
     "id": "L2-019-3",
@@ -4162,7 +4162,7 @@
       "D": "Se pondrá en condiciones de parar ante el PN y no lo rebasará hasta asegurarse de que no está transitado. Cuando el último vehículo rebase el PN, reanudará la marcha normal pudiendo circular a la velocidad máxima de su Tipo."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-49.png"
+    "imagen": "/Imagenes/Libro2-49.png"
   },
   {
     "id": "L2-005-3",
@@ -4213,7 +4213,7 @@
       "D": "Considerará protegido el primer PN y desprotegido el segundo PN, informando del estado de la señal en la primera estación dónde tenga parada prescrita."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-50.png"
+    "imagen": "/Imagenes/Libro2-50.png"
   },
   {
     "id": "L2-017-3",
@@ -4247,7 +4247,7 @@
       "D": "Circular en condiciones de parar ante ambos PN, y no los rebasará hasta asegurarse que no están transitados."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-51.png"
+    "imagen": "/Imagenes/Libro2-51.png"
   },
   {
     "id": "L2-020-4",
@@ -4264,7 +4264,7 @@
       "D": "Circular en condiciones de parar ante ambos PN, y no los rebasará hasta asegurarse que no están transitados."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-52.png"
+    "imagen": "/Imagenes/Libro2-52.png"
   },
   {
     "id": "L2-006-4",
@@ -4298,7 +4298,7 @@
       "D": "Se denomina indicadora de acoplamiento de agujas e informa del correcto acoplamiento de las agujas situadas a continuación."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-53.png"
+    "imagen": "/Imagenes/Libro2-53.png"
   },
   {
     "id": "L2-014-4",
@@ -4332,7 +4332,7 @@
       "D": "Esta señal no tiene ninguna relación con la señal de salida."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-54.png"
+    "imagen": "/Imagenes/Libro2-54.png"
   },
   {
     "id": "L2-019-4",
@@ -4349,7 +4349,7 @@
       "D": "Esta señal no le afecta y no le indica nada."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-55.png"
+    "imagen": "/Imagenes/Libro2-55.png"
   },
   {
     "id": "L2-022",
@@ -4366,7 +4366,7 @@
       "D": "No excederá la velocidad de 30 km/h al paso por la aguja de salida."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-56.png"
+    "imagen": "/Imagenes/Libro2-56.png"
   },
   {
     "id": "L2-014-5",
@@ -4400,7 +4400,7 @@
       "D": "Efectuará detención antes de rebasar la señal E1 y lo comunicará al Responsable de Circulación."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-57.png"
+    "imagen": "/Imagenes/Libro2-57.png"
   },
   {
     "id": "L2-013-4",
@@ -4434,7 +4434,7 @@
       "D": "No excederá la velocidad de 30 km/h al paso por la aguja ①, ni de 50 km/h al paso por la aguja ②."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-58.png"
+    "imagen": "/Imagenes/Libro2-58.png"
   },
   {
     "id": "L2-007-3",
@@ -4502,7 +4502,7 @@
       "D": "Cartelón indicado en D."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-59.png"
+    "imagen": "/Imagenes/Libro2-59.png"
   },
   {
     "id": "L2-081",
@@ -4536,7 +4536,7 @@
       "D": "D."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-60.png"
+    "imagen": "/Imagenes/Libro2-60.png"
   },
   {
     "id": "L2-017-4",
@@ -4553,7 +4553,7 @@
       "D": "En la posición 2 y el siguiente aspecto"
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-61.png"
+    "imagen": "/Imagenes/Libro2-61.png"
   },
   {
     "id": "L2-081-2",
@@ -4570,7 +4570,7 @@
       "D": "Una señal de salida que hace funciones de señal avanzada."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-62.png"
+    "imagen": "/Imagenes/Libro2-62.png"
   },
   {
     "id": "L2-016-3",
@@ -4587,7 +4587,7 @@
       "D": "D."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-63.png"
+    "imagen": "/Imagenes/Libro2-63.png"
   },
   {
     "id": "L2-007-4",
@@ -4604,7 +4604,7 @@
       "D": "El código de identificación del cantón de LZB o ERTMS Nivel 1."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-64.png"
+    "imagen": "/Imagenes/Libro2-64.png"
   },
   {
     "id": "L2-007-5",
@@ -4621,7 +4621,7 @@
       "D": "Se denomina piquete de entrevías e indica el punto a partir del cual el Maquinista circulará con marcha de maniobras."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-65.png"
+    "imagen": "/Imagenes/Libro2-65.png"
   },
   {
     "id": "L2-010-4",
@@ -4638,7 +4638,7 @@
       "D": "La dirección en la que se encuentra la estación más próxima."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-66.png"
+    "imagen": "/Imagenes/Libro2-66.png"
   },
   {
     "id": "L2-018-2",
@@ -4672,7 +4672,7 @@
       "D": "Señal de vía de apartado o de ramal, cuyos números indican, en orden creciente de tamaño, el kilómetro, el hectómetro y el metro."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-67.png"
+    "imagen": "/Imagenes/Libro2-67.png"
   },
   {
     "id": "L2-008-2",
@@ -4689,7 +4689,7 @@
       "D": "Pendiente de 4 mm/m en 500 m."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-68.png"
+    "imagen": "/Imagenes/Libro2-68.png"
   },
   {
     "id": "L2-008-3",
@@ -4706,7 +4706,7 @@
       "D": "Señal de inicio de peligro en trinchera, terraplén o zona inundable, y se clasifica como una señal fija fundamental."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-69.png"
+    "imagen": "/Imagenes/Libro2-69.png"
   },
   {
     "id": "L2-024-5",
@@ -4723,7 +4723,7 @@
       "D": "Serán las que figuren en la notificación que reciba el Maquinista."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-70.png"
+    "imagen": "/Imagenes/Libro2-70.png"
   },
   {
     "id": "L2-023-4",
@@ -4740,7 +4740,7 @@
       "D": "Señal D"
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-71.png"
+    "imagen": "/Imagenes/Libro2-71.png"
   },
   {
     "id": "L2-024-6",
@@ -4757,7 +4757,7 @@
       "D": "Serán las que figuren en la notificación que reciba el Maquinista, emitida por la EF a través del documento de tren."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-72.png"
+    "imagen": "/Imagenes/Libro2-72.png"
   },
   {
     "id": "L2-009-2",
@@ -4774,7 +4774,7 @@
       "D": "Seccionamiento de lámina de aire de la línea de contacto y ordena abrir el disyuntor al paso por él."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-73.png"
+    "imagen": "/Imagenes/Libro2-73.png"
   },
   {
     "id": "L2-009-3",
@@ -4791,7 +4791,7 @@
       "D": "A los trenes con tracción eléctrica, parar ante ella sin rebasarla."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-74.png"
+    "imagen": "/Imagenes/Libro2-74.png"
   },
   {
     "id": "L2-011-2",
@@ -4808,7 +4808,7 @@
       "D": "La señal representada en D."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-75.png"
+    "imagen": "/Imagenes/Libro2-75.png"
   },
   {
     "id": "L2-021-3",
@@ -4825,7 +4825,7 @@
       "D": "La señal representada en D."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-76.png"
+    "imagen": "/Imagenes/Libro2-76.png"
   },
   {
     "id": "L2-011-3",
@@ -4842,7 +4842,7 @@
       "D": "La señal representada en la FIGURA D."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-77.png"
+    "imagen": "/Imagenes/Libro2-77.png"
   },
   {
     "id": "L2-018-3",
@@ -4859,7 +4859,7 @@
       "D": "Continuará circulando con marcha de maniobras si nada se opone."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-78.png"
+    "imagen": "/Imagenes/Libro2-78.png"
   },
   {
     "id": "L2-016-4",
@@ -4876,7 +4876,7 @@
       "D": "Cerrar totalmente el regulador al paso por el seccionamiento de la lámina de aire."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-79.png"
+    "imagen": "/Imagenes/Libro2-79.png"
   },
   {
     "id": "L2-018-4",
@@ -4893,7 +4893,7 @@
       "D": "D"
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-80.png"
+    "imagen": "/Imagenes/Libro2-80.png"
   },
   {
     "id": "L2-016-5",
@@ -4910,7 +4910,7 @@
       "D": "La señal representada en D."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-81.png"
+    "imagen": "/Imagenes/Libro2-81.png"
   },
   {
     "id": "L2-020-5",
@@ -4927,7 +4927,7 @@
       "D": "Indica que se puede levantar el pantógrafo a su paso por ella."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-82.png"
+    "imagen": "/Imagenes/Libro2-82.png"
   },
   {
     "id": "L2-017-5",
@@ -4944,7 +4944,7 @@
       "D": "D."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-83.png"
+    "imagen": "/Imagenes/Libro2-83.png"
   },
   {
     "id": "L2-012",
@@ -4961,7 +4961,7 @@
       "D": "Proximidad a un cambio de signo de la rasante en un túnel."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-84.png"
+    "imagen": "/Imagenes/Libro2-84.png"
   },
   {
     "id": "L2-021-4",
@@ -4978,7 +4978,7 @@
       "D": "B."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-85.png"
+    "imagen": "/Imagenes/Libro2-85.png"
   },
   {
     "id": "L2-018-5",
@@ -4995,7 +4995,7 @@
       "D": "D"
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-86.png"
+    "imagen": "/Imagenes/Libro2-86.png"
   },
   {
     "id": "L2-009-4",
@@ -5012,7 +5012,7 @@
       "D": "Indica, para composiciones CAF, el punto a partir del cual debe actuar sobre el conmutador de puesta en marcha de la secuencia de cambio."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-87.png"
+    "imagen": "/Imagenes/Libro2-87.png"
   },
   {
     "id": "L2-081-3",
@@ -5029,7 +5029,7 @@
       "D": "La señal fija indicadora D"
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-88.png"
+    "imagen": "/Imagenes/Libro2-88.png"
   },
   {
     "id": "L2-021-5",
@@ -5046,7 +5046,7 @@
       "D": "Es un cartelón y nos indica el canal asignado a partir de ese punto para las comunicaciones con el PM a través del GSMR."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-89.png"
+    "imagen": "/Imagenes/Libro2-89.png"
   },
   {
     "id": "L2-015-7",
@@ -5063,7 +5063,7 @@
       "D": "D"
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-90.png"
+    "imagen": "/Imagenes/Libro2-90.png"
   },
   {
     "id": "L2-016-6",
@@ -5097,7 +5097,7 @@
       "D": "A 100 km/h por las agujas de entrada y 120 km/h por las agujas de salida."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-91.png"
+    "imagen": "/Imagenes/Libro2-91.png"
   },
   {
     "id": "L2-021-6",
@@ -5114,7 +5114,7 @@
       "D": "150, 60 y 60 km/h respectivamente."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-92.png"
+    "imagen": "/Imagenes/Libro2-92.png"
   },
   {
     "id": "L2-015-8",
@@ -5131,7 +5131,7 @@
       "D": "Secuencia D"
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-93.png"
+    "imagen": "/Imagenes/Libro2-93.png"
   },
   {
     "id": "L2-019-5",
@@ -5165,7 +5165,7 @@
       "D": "Anuncio de velocidad máxima por paso a nivel y ordena no exceder la velocidad indicada al paso por el PN situado a continuación y hasta que el último vehículo haya rebasado el mismo."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-94.png"
+    "imagen": "/Imagenes/Libro2-94.png"
   },
   {
     "id": "L2-011-4",
@@ -5182,7 +5182,7 @@
       "D": "Las señales representadas en D."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-95.png"
+    "imagen": "/Imagenes/Libro2-95.png"
   },
   {
     "id": "L2-003-4",
@@ -5199,7 +5199,7 @@
       "D": "160 km/h"
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-96.png"
+    "imagen": "/Imagenes/Libro2-96.png"
   },
   {
     "id": "L2-008-4",
@@ -5216,7 +5216,7 @@
       "D": "Las señales representadas en D."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-97.png"
+    "imagen": "/Imagenes/Libro2-97.png"
   },
   {
     "id": "L2-024-7",
@@ -5233,7 +5233,7 @@
       "D": "70 km/h, 110 km/h y 50 km/h respectivamente."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-98.png"
+    "imagen": "/Imagenes/Libro2-98.png"
   },
   {
     "id": "L2-020-7",
@@ -5250,7 +5250,7 @@
       "D": "120 km/h, 120 km/h y 160 km/h respectivamente."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-99.png"
+    "imagen": "/Imagenes/Libro2-99.png"
   },
   {
     "id": "L2-082",
@@ -5267,7 +5267,7 @@
       "D": "Únicamente B."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-100.png"
+    "imagen": "/Imagenes/Libro2-100.png"
   },
   {
     "id": "L2-020-8",
@@ -5284,7 +5284,7 @@
       "D": "Por la señal A: 120 km/h. Por la señal B: 120 km/h."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-101.png"
+    "imagen": "/Imagenes/Libro2-101.png"
   },
   {
     "id": "L2-026-2",
@@ -5301,7 +5301,7 @@
       "D": "160 km/h."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-102.png"
+    "imagen": "/Imagenes/Libro2-102.png"
   },
   {
     "id": "L2-023-5",
@@ -5318,7 +5318,7 @@
       "D": "80 km/h, 110 km/h y 110 km/h respectivamente."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-103.png"
+    "imagen": "/Imagenes/Libro2-103.png"
   },
   {
     "id": "L2-024-8",
@@ -5335,7 +5335,7 @@
       "D": "D"
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-104.png"
+    "imagen": "/Imagenes/Libro2-104.png"
   },
   {
     "id": "L2-012-2",
@@ -5403,7 +5403,7 @@
       "D": "Todas."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-105.png"
+    "imagen": "/Imagenes/Libro2-105.png"
   },
   {
     "id": "L2-011-5",
@@ -5420,7 +5420,7 @@
       "D": "La combinación de estas señales no existe."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-106.png"
+    "imagen": "/Imagenes/Libro2-106.png"
   },
   {
     "id": "L2-005-4",
@@ -5437,7 +5437,7 @@
       "D": "160 km/h"
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-107.png"
+    "imagen": "/Imagenes/Libro2-107.png"
   },
   {
     "id": "L2-018-6",
@@ -5454,7 +5454,7 @@
       "D": "60 km/h."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-108.png"
+    "imagen": "/Imagenes/Libro2-108.png"
   },
   {
     "id": "L2-017-6",
@@ -5471,7 +5471,7 @@
       "D": "140 km/h."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-109.png"
+    "imagen": "/Imagenes/Libro2-109.png"
   },
   {
     "id": "L2-014-6",
@@ -5488,7 +5488,7 @@
       "D": "Únicamente D"
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-110.png"
+    "imagen": "/Imagenes/Libro2-110.png"
   },
   {
     "id": "L2-022-4",
@@ -5505,7 +5505,7 @@
       "D": "120 km/h."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-111.png"
+    "imagen": "/Imagenes/Libro2-111.png"
   },
   {
     "id": "L2-013-5",
@@ -5522,7 +5522,7 @@
       "D": "D"
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-112.png"
+    "imagen": "/Imagenes/Libro2-112.png"
   },
   {
     "id": "L2-019-6",
@@ -5539,7 +5539,7 @@
       "D": "La velocidad máxima que indique el DMI del ETCS, pues prevalece sobre las señales en vía."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-113.png"
+    "imagen": "/Imagenes/Libro2-113.png"
   },
   {
     "id": "L2-005-5",
@@ -5556,7 +5556,7 @@
       "D": "130 Km/h."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-114.png"
+    "imagen": "/Imagenes/Libro2-114.png"
   },
   {
     "id": "L2-014-7",
@@ -5573,7 +5573,7 @@
       "D": "A 30 km/h por las agujas (puntos 1 y 2) y a 50 km/h por la señal (punto 3)."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-115.png"
+    "imagen": "/Imagenes/Libro2-115.png"
   },
   {
     "id": "L2-081-4",
@@ -5590,7 +5590,7 @@
       "D": "120 km/h, dado que la LTV no afecta a locomotoras aisladas."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-116.png"
+    "imagen": "/Imagenes/Libro2-116.png"
   },
   {
     "id": "L2-025-3",
@@ -5607,7 +5607,7 @@
       "D": "180 km/h, 90 km/h y 90 km/h respectivamente."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-117.png"
+    "imagen": "/Imagenes/Libro2-117.png"
   },
   {
     "id": "L2-019-7",
@@ -5624,7 +5624,7 @@
       "D": "160 km/h."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-118.png"
+    "imagen": "/Imagenes/Libro2-118.png"
   },
   {
     "id": "L2-013-6",
@@ -5658,7 +5658,7 @@
       "D": "160 km/h."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-119.png"
+    "imagen": "/Imagenes/Libro2-119.png"
   },
   {
     "id": "L2-023-6",
@@ -5777,7 +5777,7 @@
       "D": "Circulará sin exceder la velocidad de 140 km/h desde el km 124,000 al km 125,000, y sin exceder 110 km/h del km 125,00 al km 127,000."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-120.png"
+    "imagen": "/Imagenes/Libro2-120.png"
   },
   {
     "id": "L2-021-7",
@@ -5794,7 +5794,7 @@
       "D": "En la Estación que determine el Responsable de Circulación del CTC."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-121.png"
+    "imagen": "/Imagenes/Libro2-121.png"
   },
   {
     "id": "L2-024-9",
@@ -5811,7 +5811,7 @@
       "D": "Figura D."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-122.png"
+    "imagen": "/Imagenes/Libro2-122.png"
   },
   {
     "id": "L2-012-3",
@@ -5828,7 +5828,7 @@
       "D": "Lo comunicará al Responsable de Circulación y avanzará, si nada se opone, con marcha a la vista y sin exceder de 40 Km/h hasta la señal siguiente. Si la señal siguiente permite el paso reanudará la marcha normal."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-123.png"
+    "imagen": "/Imagenes/Libro2-123.png"
   },
   {
     "id": "L2-015-10",
@@ -5845,7 +5845,7 @@
       "D": "Efectuará detención inmediata y procederá como si el paso a nivel situado a continuación estuviera sin protección"
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-124.png"
+    "imagen": "/Imagenes/Libro2-124.png"
   },
   {
     "id": "L2-013-9",
@@ -6049,7 +6049,7 @@
       "D": "Llevará las señales representadas en la figura A o C, indistintamente."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-125.png"
+    "imagen": "/Imagenes/Libro2-125.png"
   },
   {
     "id": "L2-022-7",
@@ -6066,7 +6066,7 @@
       "D": "Ninguna señal."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-126.png"
+    "imagen": "/Imagenes/Libro2-126.png"
   },
   {
     "id": "L2-022-8",
@@ -6134,7 +6134,7 @@
       "D": "D."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-127.png"
+    "imagen": "/Imagenes/Libro2-127.png"
   },
   {
     "id": "L2-019-9",
@@ -6151,7 +6151,7 @@
       "D": "No requiere acción."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-128.png"
+    "imagen": "/Imagenes/Libro2-128.png"
   },
   {
     "id": "L2-023-8",
@@ -6202,7 +6202,7 @@
       "D": "Efectuará parada ante el poste de punto protegido, siendo necesaria la autorización de rebase del mismo para efectuar su entrada en la estación."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-129.png"
+    "imagen": "/Imagenes/Libro2-129.png"
   },
   {
     "id": "L2-015-12",
@@ -6219,7 +6219,7 @@
       "D": "La señal representada en D."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro2-130.png"
+    "imagen": "/Imagenes/Libro2-130.png"
   },
   {
     "id": "L2-018-8",
@@ -6236,7 +6236,7 @@
       "D": "Únicamente la señal 3."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-131.png"
+    "imagen": "/Imagenes/Libro2-131.png"
   },
   {
     "id": "L2-023-9",
@@ -6253,7 +6253,7 @@
       "D": "C y D."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-132.png"
+    "imagen": "/Imagenes/Libro2-132.png"
   },
   {
     "id": "L2-022-9",
@@ -6270,7 +6270,7 @@
       "D": "Puntos ③ y ④ respectivamente."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-133.png"
+    "imagen": "/Imagenes/Libro2-133.png"
   },
   {
     "id": "L2-018-9",
@@ -6287,7 +6287,7 @@
       "D": "④"
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-134.png"
+    "imagen": "/Imagenes/Libro2-134.png"
   },
   {
     "id": "L2-014-11",
@@ -6304,7 +6304,7 @@
       "D": "Anuncio de parada."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-135.png"
+    "imagen": "/Imagenes/Libro2-135.png"
   },
   {
     "id": "L2-028",
@@ -6321,7 +6321,7 @@
       "D": "Indica que nos encontramos en el kilómetro 277 de la línea y que la rasante en los siguientes 3 km es horizontal."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro2-136.png"
+    "imagen": "/Imagenes/Libro2-136.png"
   },
   {
     "id": "L2-015-13",
@@ -6355,7 +6355,7 @@
       "D": "La señal representada en D."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-137.png"
+    "imagen": "/Imagenes/Libro2-137.png"
   },
   {
     "id": "L2-016-9",
@@ -6372,7 +6372,7 @@
       "D": "D."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro2-138.png"
+    "imagen": "/Imagenes/Libro2-138.png"
   },
   {
     "id": "L2-008-5",
@@ -6389,7 +6389,7 @@
       "D": "Considerará el PN como desprotegido."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro2-139.png"
+    "imagen": "/Imagenes/Libro2-139.png"
   },
   {
     "id": "L2-081-6",
@@ -6576,7 +6576,7 @@
       "D": "No efectuará parada en la estación B."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro3-1.png"
+    "imagen": "/Imagenes/Libro3-1.png"
   },
   {
     "id": "L3-030",
@@ -6814,7 +6814,7 @@
       "D": "Por ⑥ 30 km/h. Por ② 120 km/h."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro3-2.png"
+    "imagen": "/Imagenes/Libro3-2.png"
   },
   {
     "id": "L3-027-2",
@@ -6831,7 +6831,7 @@
       "D": "140 km/h."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro3-3.png"
+    "imagen": "/Imagenes/Libro3-3.png"
   },
   {
     "id": "L3-031-3",
@@ -6865,7 +6865,7 @@
       "D": "Por las agujas de entrada (1) 30 km/h y por las agujas de salida (2) sin restricción de velocidad."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro3-4.png"
+    "imagen": "/Imagenes/Libro3-4.png"
   },
   {
     "id": "L3-044",
@@ -6899,7 +6899,7 @@
       "D": "30 km/h (cambio 1) y sin restricción de velocidad (cambio 2)."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro3-5.png"
+    "imagen": "/Imagenes/Libro3-5.png"
   },
   {
     "id": "L3-041-2",
@@ -6916,7 +6916,7 @@
       "D": "40 km/h."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro3-6.png"
+    "imagen": "/Imagenes/Libro3-6.png"
   },
   {
     "id": "L3-026-5",
@@ -6933,7 +6933,7 @@
       "D": "No excederá de 60 km/h al paso la aguja ①."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro3-7.png"
+    "imagen": "/Imagenes/Libro3-7.png"
   },
   {
     "id": "L3-027-3",
@@ -6967,7 +6967,7 @@
       "D": "Por ① y ② 30 km/h."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro3-8.png"
+    "imagen": "/Imagenes/Libro3-8.png"
   },
   {
     "id": "L3-030-3",
@@ -6984,7 +6984,7 @@
       "D": "Desvío ④, 50 km/h. Desvío ②, 50 km/h."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro3-9.png"
+    "imagen": "/Imagenes/Libro3-9.png"
   },
   {
     "id": "L3-037-3",
@@ -7001,7 +7001,7 @@
       "D": "①: 100 km/h. ②: 60 km/h."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro3-10.png"
+    "imagen": "/Imagenes/Libro3-10.png"
   },
   {
     "id": "L3-025-3",
@@ -7018,7 +7018,7 @@
       "D": "60 km/h."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro3-11.png"
+    "imagen": "/Imagenes/Libro3-11.png"
   },
   {
     "id": "L3-027-4",
@@ -7035,7 +7035,7 @@
       "D": "140 km/h."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro3-12.png"
+    "imagen": "/Imagenes/Libro3-12.png"
   },
   {
     "id": "L3-043-2",
@@ -7307,7 +7307,7 @@
       "D": "No emprenderá la marcha de la Estación 1, debido a la indicación que presenta la señal de salida."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro3-13.png"
+    "imagen": "/Imagenes/Libro3-13.png"
   },
   {
     "id": "L3-032-2",
@@ -7698,7 +7698,7 @@
       "D": "Sí, siempre que todas las locomotoras lleven en servicio el dispositivo de vigilancia."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro3-14.png"
+    "imagen": "/Imagenes/Libro3-14.png"
   },
   {
     "id": "L3-029-3",
@@ -8038,7 +8038,7 @@
       "D": "Para un tren que va a ser expedido a contravía hacia el lado Madrid desde vía 2, el cartelón de \"LÍMITE\" carece de significado."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro3-15.png"
+    "imagen": "/Imagenes/Libro3-15.png"
   },
   {
     "id": "L3-033-5",
@@ -8106,7 +8106,7 @@
       "D": "1, 7, 8, 14."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro3-16.png"
+    "imagen": "/Imagenes/Libro3-16.png"
   },
   {
     "id": "L3-041-6",
@@ -8123,7 +8123,7 @@
       "D": "Lado Madrid: por la vía 1, 200 m antes de la señal E'2 de la otra vía. Por la vía 2 el cartelón de «límite». Lado Valencia: por la vía 1, la señal E1. Por la vía 2, 200 m antes de la señal E'1 de la otra vía."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro3-17.png"
+    "imagen": "/Imagenes/Libro3-17.png"
   },
   {
     "id": "L3-047-2",
@@ -8174,7 +8174,7 @@
       "D": "Por la vía II y podrán llegar hasta la señal de entrada E3."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro3-18.png"
+    "imagen": "/Imagenes/Libro3-18.png"
   },
   {
     "id": "L3-040-3",
@@ -8191,7 +8191,7 @@
       "D": "El punto D."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro3-19.png"
+    "imagen": "/Imagenes/Libro3-19.png"
   },
   {
     "id": "L3-030-7",
@@ -8412,7 +8412,7 @@
       "D": "La protección de emergencia de la vía I por el lado de la estación B y de la vía II por el lado de la estación A."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro3-20.png"
+    "imagen": "/Imagenes/Libro3-20.png"
   },
   {
     "id": "L3-033-6",
@@ -8429,7 +8429,7 @@
       "D": "La protección de emergencia de la vía par por ambos lados."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro3-21.png"
+    "imagen": "/Imagenes/Libro3-21.png"
   },
   {
     "id": "L3-036-6",
@@ -8582,7 +8582,7 @@
       "D": "Al aproximarse a la Estación A procederá como si hubiera encontrado una señal de anuncio de parada a la altura de la señal avanzada 1916, ateniéndose a lo que ordene la señal de retroceso R2."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro3-22.png"
+    "imagen": "/Imagenes/Libro3-22.png"
   },
   {
     "id": "L3-036-7",
@@ -8735,7 +8735,7 @@
       "D": "Si se ha notificado al Maquinista sobre el objeto del socorro y las condiciones de circulación, mediante la autorización de rebase de la señal de salida por parte del Responsable de Circulación del CTC."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro3-23.png"
+    "imagen": "/Imagenes/Libro3-23.png"
   },
   {
     "id": "L3-034-7",
@@ -8854,7 +8854,7 @@
       "D": "Circulará con marcha a la vista hasta llegar a la cola del tren T1."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro3-24.png"
+    "imagen": "/Imagenes/Libro3-24.png"
   },
   {
     "id": "L3-038-3",
@@ -9585,7 +9585,7 @@
       "D": "El tren podrá ser expedido excepcionalmente desde la vía 1, aunque será necesario que el Responsable de Circulación notifique al Maquinista lo siguiente: «Marche el tren 10140 hasta B, con marcha normal»."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro4-1.png"
+    "imagen": "/Imagenes/Libro4-1.png"
   },
   {
     "id": "L4-042-3",
@@ -9636,7 +9636,7 @@
       "D": "No, le tendrán que notificar el rebase con marcha de maniobras, aunque el trayecto a recorrer está libre de trenes, puesto que no hay señales intermedias."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro4-2.png"
+    "imagen": "/Imagenes/Libro4-2.png"
   },
   {
     "id": "L4-041",
@@ -10231,7 +10231,7 @@
       "D": "100 km/h."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro4-3.png"
+    "imagen": "/Imagenes/Libro4-3.png"
   },
   {
     "id": "L4-050",
@@ -10265,7 +10265,7 @@
       "D": "Señal S2/1: Inexistente; Señal 114: PN desprotegido; Señal 120: Vía libre condicional; Señal E'4: Anuncio de parada; Señal E4: Parada"
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro4-4.png"
+    "imagen": "/Imagenes/Libro4-4.png"
   },
   {
     "id": "L4-048",
@@ -10350,7 +10350,7 @@
       "D": "Se detendrá ante la señal E2 y las rebasará previa autorización de rebase cursada por el Responsable de Circulación del CTC, verificando la posición de las agujas y sin exceder de 10 km/h al pasar por las mismas."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro4-5.png"
+    "imagen": "/Imagenes/Libro4-5.png"
   },
   {
     "id": "L4-049",
@@ -10418,7 +10418,7 @@
       "D": "Una vez que se franquea la señal en indicación de vía libre, circulará normalmente, si nada se opone."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro4-6.png"
+    "imagen": "/Imagenes/Libro4-6.png"
   },
   {
     "id": "L4-040-5",
@@ -10452,7 +10452,7 @@
       "D": "Considerará la señal avanzada como si diera anuncio de parada. Efectuará parada ante la señal de entrada, reanudando la marcha cuando reciba la autorización de rebase de la señal por parte del Responsable de Circulación del CTC."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro4-7.png"
+    "imagen": "/Imagenes/Libro4-7.png"
   },
   {
     "id": "L4-045-4",
@@ -10503,7 +10503,7 @@
       "D": "El Maquinista seleccionará el modo BTS en el equipo de ASFA Digital y circulará sin exceder la velocidad de 120 km/h, salvo que el Responsable de Circulación le notifique otra velocidad inferior."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro4-8.png"
+    "imagen": "/Imagenes/Libro4-8.png"
   },
   {
     "id": "L4-040-6",
@@ -10690,7 +10690,7 @@
       "D": "S2/2: inexistente. 114: paso a nivel sin protección. 120: anuncio de parada. E'4: anuncio de parada. E4: parada."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro4-9.png"
+    "imagen": "/Imagenes/Libro4-9.png"
   },
   {
     "id": "L4-045-5",
@@ -10775,7 +10775,7 @@
       "D": "Consideraré la señal avanzada como si diera anuncio de parada. Efectuaré parada ante la señal de entrada, solicitando su rebase al Responsable de circulación de la estación. Si se presenta la señal de paso, continuaré la marcha normalmente si nada se opone."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro4-10.png"
+    "imagen": "/Imagenes/Libro4-10.png"
   },
   {
     "id": "L4-025-2",
@@ -11081,7 +11081,7 @@
       "D": "Efectuará parada ante la señal R4 y no la rebasará hasta comprobar el cartelón [C] en el andén, verificando la posición de las agujas de entrada sin exceder de 30 km/h hasta que el tren se encuentre de nuevo en plena vía."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro4-11.png"
+    "imagen": "/Imagenes/Libro4-11.png"
   },
   {
     "id": "L4-047-5",
@@ -11132,7 +11132,7 @@
       "D": "El Maquinista no iniciará la marcha, ya que solo puede ser expedido desde una vía con señal de salida."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro4-12.png"
+    "imagen": "/Imagenes/Libro4-12.png"
   },
   {
     "id": "L4-045-7",
@@ -11421,7 +11421,7 @@
       "D": "Como si hubiera encontrado una señal de anuncio de parada en el mismo lugar que está situada la señal que ordena vía libre condicional de la vía normal, atendiendo a lo que ordene la señal de retroceso."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro4-13.png"
+    "imagen": "/Imagenes/Libro4-13.png"
   },
   {
     "id": "L4-021-4",
@@ -11523,7 +11523,7 @@
       "D": "Para que el tren pueda emprender la marcha, el Responsable de Circulación debe añadir en el BOI: «Marche el tren ____ de vía ____.»"
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro4-14.png"
+    "imagen": "/Imagenes/Libro4-14.png"
   },
   {
     "id": "L4-082",
@@ -11540,7 +11540,7 @@
       "D": "No será preciso efectuar parada ante la señal, pero tras franquearla comprobará la posición de las agujas, así como los dispositivos de protección de los pasos a nivel, si existen."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro4-15.png"
+    "imagen": "/Imagenes/Libro4-15.png"
   },
   {
     "id": "L4-044-9",
@@ -11557,7 +11557,7 @@
       "D": "El Maquinista efectuará su paso por la estación si su Responsable de Circulación le presenta la señal de paso."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro4-16.png"
+    "imagen": "/Imagenes/Libro4-16.png"
   },
   {
     "id": "L4-042-9",
@@ -11659,7 +11659,7 @@
       "D": "El Maquinista circulará sin exceder la velocidad de 30 km/h al paso por la estación."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro4-17.png"
+    "imagen": "/Imagenes/Libro4-17.png"
   },
   {
     "id": "L4-049-4",
@@ -11693,7 +11693,7 @@
       "D": "En la Estación B deberán informarle si la Estación C se encuentra abierta al servicio dado que, al tratarse de una estación NC, no permite el paso por ella, excepto si dispone de cartelones luminosos [EA/EC]."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro4-18.png"
+    "imagen": "/Imagenes/Libro4-18.png"
   },
   {
     "id": "L4-023-4",
@@ -11982,7 +11982,7 @@
       "D": "100 km/h."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro5-Asfa-1.png"
+    "imagen": "/Imagenes/Libro5-Asfa-1.png"
   },
   {
     "id": "L5A-060",
@@ -11999,7 +11999,7 @@
       "D": "En el momento en el que el icono de LTV/CSV se muestre con luz intermitente."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro5-Asfa-2.png"
+    "imagen": "/Imagenes/Libro5-Asfa-2.png"
   },
   {
     "id": "L5A-056",
@@ -12186,7 +12186,7 @@
       "D": "30 Km/h y se podrá liberar una vez rebasada la señal 3."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro5-Asfa-3.png"
+    "imagen": "/Imagenes/Libro5-Asfa-3.png"
   },
   {
     "id": "L5A-051-2",
@@ -12271,7 +12271,7 @@
       "D": "80 Km/h y se podrá liberar rebasar la señal 3."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro5-Asfa-4.png"
+    "imagen": "/Imagenes/Libro5-Asfa-4.png"
   },
   {
     "id": "L5A-059-3",
@@ -12288,7 +12288,7 @@
       "D": "D"
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro5-Asfa-5.png"
+    "imagen": "/Imagenes/Libro5-Asfa-5.png"
   },
   {
     "id": "L5A-082",
@@ -12322,7 +12322,7 @@
       "D": "En la señal 4."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro5-Asfa-6.png"
+    "imagen": "/Imagenes/Libro5-Asfa-6.png"
   },
   {
     "id": "L5A-059-4",
@@ -12356,7 +12356,7 @@
       "D": "En ningún caso podrá accionar el pulsador de aumento de velocidad de control final."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro5-Asfa-7.png"
+    "imagen": "/Imagenes/Libro5-Asfa-7.png"
   },
   {
     "id": "L5A-060-4",
@@ -12373,7 +12373,7 @@
       "D": "En ningún caso podrá accionar dicho pulsador."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro5-Asfa-8.png"
+    "imagen": "/Imagenes/Libro5-Asfa-8.png"
   },
   {
     "id": "L5A-051-3",
@@ -12407,7 +12407,7 @@
       "D": "100 km/h."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro5-Asfa-9.png"
+    "imagen": "/Imagenes/Libro5-Asfa-9.png"
   },
   {
     "id": "L5A-054-2",
@@ -12458,7 +12458,7 @@
       "D": "120 km/h."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro5-Asfa-10.png"
+    "imagen": "/Imagenes/Libro5-Asfa-10.png"
   },
   {
     "id": "L5A-057-4",
@@ -12475,7 +12475,7 @@
       "D": "100 km/h."
     },
     "respuesta_correcta": "C",
-    "imagen": "Libro5-Asfa-11.png"
+    "imagen": "/Imagenes/Libro5-Asfa-11.png"
   },
   {
     "id": "L5A-058-5",
@@ -12492,7 +12492,7 @@
       "D": "Con la señal 4."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro5-Asfa-12.png"
+    "imagen": "/Imagenes/Libro5-Asfa-12.png"
   },
   {
     "id": "L5A-082-2",
@@ -12509,7 +12509,7 @@
       "D": "Tras rebasar la señal 4."
     },
     "respuesta_correcta": "B",
-    "imagen": "Libro5-Asfa-13.png"
+    "imagen": "/Imagenes/Libro5-Asfa-13.png"
   },
   {
     "id": "L5A-052",
@@ -12526,7 +12526,7 @@
       "D": "Señal 1: 160 km/h. Señal 2: 60km/h. Control final posterior a señal 3: 80 km/h."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro5-Asfa-14.png"
+    "imagen": "/Imagenes/Libro5-Asfa-14.png"
   },
   {
     "id": "L5A-054-3",
@@ -12543,7 +12543,7 @@
       "D": "Circulará normalmente por el grupo de PN, si nada se opone, informando al Responsable de Circulación del aspecto de la señal."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro5-Asfa-15.png"
+    "imagen": "/Imagenes/Libro5-Asfa-15.png"
   },
   {
     "id": "L5A-054-4",
@@ -12560,7 +12560,7 @@
       "D": "100 km/h y si la señal de entrada presenta la indicación de vía libre, el equipo no realiza el control de paso por desvío."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro5-Asfa-16.png"
+    "imagen": "/Imagenes/Libro5-Asfa-16.png"
   },
   {
     "id": "L5A-059-5",
@@ -12577,7 +12577,7 @@
       "D": "No podrá accionar el pulsador de aumento de velocidad de control final y podrá suprimir el control cuando haya rebasado la señal de velocidad máxima (CSV)."
     },
     "respuesta_correcta": "A",
-    "imagen": "Libro5-Asfa-17.png"
+    "imagen": "/Imagenes/Libro5-Asfa-17.png"
   },
   {
     "id": "L5A-052-2",
@@ -12696,7 +12696,7 @@
       "D": "No podrá accionarse el pulsador de aumento de velocidad de control final."
     },
     "respuesta_correcta": "D",
-    "imagen": "Libro5-Asfa-18.png"
+    "imagen": "/Imagenes/Libro5-Asfa-18.png"
   },
   {
     "id": "L5A-057-5",
@@ -12968,7 +12968,7 @@
       "D": "La posición es incorrecta, se denomina cambiador de potencia y sirve para ajustar la rapidez con la que actúa el freno automático"
     },
     "respuesta_correcta": "A",
-    "imagen": "Freno-1.png"
+    "imagen": "/Imagenes/Freno-1.png"
   },
   {
     "id": "FRE-071-2",
@@ -13053,7 +13053,7 @@
       "D": "Electroválvula inversa desexcitada"
     },
     "respuesta_correcta": "A",
-    "imagen": "Freno-2.png"
+    "imagen": "/Imagenes/Freno-2.png"
   },
   {
     "id": "FRE-073-4",
@@ -13138,7 +13138,7 @@
       "D": "[Opción D - imagen]"
     },
     "respuesta_correcta": "A",
-    "imagen": "Freno-3.png"
+    "imagen": "/Imagenes/Freno-3.png"
   },
   {
     "id": "FRE-072-4",
@@ -13308,7 +13308,7 @@
       "D": "El valor de la TDP es incompatible con los valores de TFA"
     },
     "respuesta_correcta": "A",
-    "imagen": "Freno-4.png"
+    "imagen": "/Imagenes/Freno-4.png"
   },
   {
     "id": "FRE-071-4",
@@ -13444,7 +13444,7 @@
       "D": "Un cargador de batería"
     },
     "respuesta_correcta": "C",
-    "imagen": "Freno-5.png"
+    "imagen": "/Imagenes/Freno-5.png"
   },
   {
     "id": "FRE-073-8",
@@ -13495,7 +13495,7 @@
       "D": "El valor de la TDP es incompatible con los valores de TFA"
     },
     "respuesta_correcta": "C",
-    "imagen": "Freno-6.png"
+    "imagen": "/Imagenes/Freno-6.png"
   },
   {
     "id": "FRE-078",
@@ -13563,7 +13563,7 @@
       "D": "Compresor"
     },
     "respuesta_correcta": "D",
-    "imagen": "Freno-7.png"
+    "imagen": "/Imagenes/Freno-7.png"
   },
   {
     "id": "FRE-075-3",
@@ -13733,7 +13733,7 @@
       "D": "Electroválvula inversa excitada"
     },
     "respuesta_correcta": "C",
-    "imagen": "Freno-8.png"
+    "imagen": "/Imagenes/Freno-8.png"
   },
   {
     "id": "FRE-079-2",
@@ -13767,7 +13767,7 @@
       "D": "Se requiere accionar el pulsador de sobrecarga"
     },
     "respuesta_correcta": "C",
-    "imagen": "Freno-9.png"
+    "imagen": "/Imagenes/Freno-9.png"
   },
   {
     "id": "FRE-078-4",
@@ -13784,7 +13784,7 @@
       "D": "Electroválvula inversa excitada"
     },
     "respuesta_correcta": "C",
-    "imagen": "Freno-10.png"
+    "imagen": "/Imagenes/Freno-10.png"
   },
   {
     "id": "FRE-079-3",
@@ -13818,7 +13818,7 @@
       "D": "Se requiere accionar el pulsador de sobrecarga"
     },
     "respuesta_correcta": "C",
-    "imagen": "Freno-11.png"
+    "imagen": "/Imagenes/Freno-11.png"
   },
   {
     "id": "FRE-071-7",
@@ -13869,7 +13869,7 @@
       "D": "Se requiere accionar el pulsador de sobrecarga"
     },
     "respuesta_correcta": "C",
-    "imagen": "Freno-12.png"
+    "imagen": "/Imagenes/Freno-12.png"
   },
   {
     "id": "FRE-072-9",
@@ -14039,7 +14039,7 @@
       "D": "La posición es incorrecta, se denomina cambiador de potencia y sirve para ajustar la rapidez con la que actúa el freno automático."
     },
     "respuesta_correcta": "A",
-    "imagen": "Rodante-1.png"
+    "imagen": "/Imagenes/Rodante-1.png"
   },
   {
     "id": "ROD-080",
@@ -14056,7 +14056,7 @@
       "D": "Este cuadro no tiene nada que ver con la velocidad máxima del vehículo."
     },
     "respuesta_correcta": "C",
-    "imagen": "Rodante-2.png"
+    "imagen": "/Imagenes/Rodante-2.png"
   },
   {
     "id": "ROD-061-2",
@@ -14107,7 +14107,7 @@
       "D": "El vagón tiene una tara de 25.400 kg, y no dispone de freno de mano."
     },
     "respuesta_correcta": "B",
-    "imagen": "Rodante-3.png"
+    "imagen": "/Imagenes/Rodante-3.png"
   },
   {
     "id": "ROD-069-2",
@@ -14158,7 +14158,7 @@
       "D": "Una llave de aislamiento del distribuidor de freno."
     },
     "respuesta_correcta": "B",
-    "imagen": "Rodante-4.png"
+    "imagen": "/Imagenes/Rodante-4.png"
   },
   {
     "id": "ROD-061-3",
@@ -14192,7 +14192,7 @@
       "D": "1.-Gancho, 2.-Topes, 3.-Tensor o Husillo, 4.-Biela, 5.-Larguero, 6.-Brida."
     },
     "respuesta_correcta": "A",
-    "imagen": "Rodante-5.png"
+    "imagen": "/Imagenes/Rodante-5.png"
   },
   {
     "id": "ROD-066",
@@ -14243,7 +14243,7 @@
       "D": "D"
     },
     "respuesta_correcta": "B",
-    "imagen": "Rodante-6.png"
+    "imagen": "/Imagenes/Rodante-6.png"
   },
   {
     "id": "ROD-070-4",
@@ -14260,7 +14260,7 @@
       "D": "120 km/h, sólo si el porcentaje de frenado automático del tren completo es superior al necesario para esta velocidad. Marzo de 2021."
     },
     "respuesta_correcta": "B",
-    "imagen": "Rodante-7.png"
+    "imagen": "/Imagenes/Rodante-7.png"
   },
   {
     "id": "ROD-061-4",
@@ -14294,7 +14294,7 @@
       "D": "C´oC´o"
     },
     "respuesta_correcta": "B",
-    "imagen": "Rodante-8.png"
+    "imagen": "/Imagenes/Rodante-8.png"
   },
   {
     "id": "ROD-070-5",
@@ -14328,7 +14328,7 @@
       "D": "Se denomina cambiador de régimen, sirve para aumentar la potencia de freno de los vehículos y su posición depende de la velocidad del tren."
     },
     "respuesta_correcta": "C",
-    "imagen": "Rodante-9.png"
+    "imagen": "/Imagenes/Rodante-9.png"
   },
   {
     "id": "ROD-080-2",
@@ -14345,7 +14345,7 @@
       "D": "No tiene nada que ver con el cargamento. Junio de 2021."
     },
     "respuesta_correcta": "A",
-    "imagen": "Rodante-10.png"
+    "imagen": "/Imagenes/Rodante-10.png"
   },
   {
     "id": "ROD-061-5",
@@ -14362,7 +14362,7 @@
       "D": "(1A0) (A01) + (1A0) (A01)"
     },
     "respuesta_correcta": "D",
-    "imagen": "Rodante-11.png"
+    "imagen": "/Imagenes/Rodante-11.png"
   },
   {
     "id": "ROD-065",
@@ -14379,7 +14379,7 @@
       "D": "Forman parte de la suspensión secundaria."
     },
     "respuesta_correcta": "B",
-    "imagen": "Rodante-12.png"
+    "imagen": "/Imagenes/Rodante-12.png"
   },
   {
     "id": "ROD-070-6",
@@ -14413,7 +14413,7 @@
       "D": "Este vagón solo puede circular en trenes Tipo 100."
     },
     "respuesta_correcta": "A",
-    "imagen": "Rodante-13.png"
+    "imagen": "/Imagenes/Rodante-13.png"
   },
   {
     "id": "ROD-080-3",
@@ -14430,7 +14430,7 @@
       "D": "Teleros."
     },
     "respuesta_correcta": "D",
-    "imagen": "Rodante-14.png"
+    "imagen": "/Imagenes/Rodante-14.png"
   },
   {
     "id": "ROD-061-6",
@@ -14464,7 +14464,7 @@
       "D": "①: Tubería de TFA; ②: Tubería de TDP; y ③: Dispositivo de desenganche manual."
     },
     "respuesta_correcta": "A",
-    "imagen": "Rodante-15.png"
+    "imagen": "/Imagenes/Rodante-15.png"
   },
   {
     "id": "ROD-069-4",
@@ -14481,7 +14481,7 @@
       "D": "Fijador."
     },
     "respuesta_correcta": "A",
-    "imagen": "Rodante-16.png"
+    "imagen": "/Imagenes/Rodante-16.png"
   },
   {
     "id": "ROD-070-7",
@@ -14583,7 +14583,7 @@
       "D": "① Amortiguador de la suspensión primaria; ② Suspensión primaria por muelles helicoidales; ③ Caja de grasa."
     },
     "respuesta_correcta": "D",
-    "imagen": "Rodante-17.png"
+    "imagen": "/Imagenes/Rodante-17.png"
   },
   {
     "id": "ROD-075",
@@ -14617,7 +14617,7 @@
       "D": "Que el vagón dispone de cambio de ancho automático."
     },
     "respuesta_correcta": "A",
-    "imagen": "Rodante-18.png"
+    "imagen": "/Imagenes/Rodante-18.png"
   },
   {
     "id": "ROD-084",
@@ -14634,7 +14634,7 @@
       "D": "Pivote."
     },
     "respuesta_correcta": "B",
-    "imagen": "Rodante-19.png"
+    "imagen": "/Imagenes/Rodante-19.png"
   },
   {
     "id": "ROD-085",
@@ -14668,7 +14668,7 @@
       "D": "26,62 m es la distancia entre topes no comprimidos del vehículo. 18,79 m es la longitud interior de la caja, entre las paredes extremas."
     },
     "respuesta_correcta": "B",
-    "imagen": "Rodante-20.png"
+    "imagen": "/Imagenes/Rodante-20.png"
   },
   {
     "id": "ROD-067-2",
@@ -14685,7 +14685,7 @@
       "D": "El vagón está dotado de un gancho de alta resistencia."
     },
     "respuesta_correcta": "D",
-    "imagen": "Rodante-21.png"
+    "imagen": "/Imagenes/Rodante-21.png"
   },
   {
     "id": "ROD-068-3",
@@ -14701,7 +14701,7 @@
       "C": "1.-Gancho, 2.-Topes, 3.-Tensor o Husillo, 4.-Biela, 5.-Manija, 6.-Brida."
     },
     "respuesta_correcta": "A",
-    "imagen": "Rodante-22.png"
+    "imagen": "/Imagenes/Rodante-22.png"
   },
   {
     "id": "ROD-069-5",
@@ -14735,7 +14735,7 @@
       "D": "Bogie."
     },
     "respuesta_correcta": "B",
-    "imagen": "Rodante-23.png"
+    "imagen": "/Imagenes/Rodante-23.png"
   },
   {
     "id": "ROD-066-3",
@@ -14752,7 +14752,7 @@
       "D": "La distancia entre topes es de 10,42 m."
     },
     "respuesta_correcta": "A",
-    "imagen": "Rodante-24.png"
+    "imagen": "/Imagenes/Rodante-24.png"
   },
   {
     "id": "ROD-084-2",
@@ -14769,7 +14769,7 @@
       "D": "En caso de existir conexiones eléctricas, se realizan de forma manual."
     },
     "respuesta_correcta": "D",
-    "imagen": "Rodante-25.png"
+    "imagen": "/Imagenes/Rodante-25.png"
   },
   {
     "id": "ROD-068-4",
@@ -14786,7 +14786,7 @@
       "D": "D"
     },
     "respuesta_correcta": "C",
-    "imagen": "Rodante-26.png"
+    "imagen": "/Imagenes/Rodante-26.png"
   },
   {
     "id": "ROD-079-2",
@@ -14820,7 +14820,7 @@
       "D": "Freno con cambiador de potencia continuo."
     },
     "respuesta_correcta": "C",
-    "imagen": "Rodante-27.png"
+    "imagen": "/Imagenes/Rodante-27.png"
   },
   {
     "id": "ROD-069-6",
@@ -14837,7 +14837,7 @@
       "D": "Puntales."
     },
     "respuesta_correcta": "C",
-    "imagen": "Rodante-28.png"
+    "imagen": "/Imagenes/Rodante-28.png"
   },
   {
     "id": "ROD-070-9",
@@ -14854,7 +14854,7 @@
       "D": "Tolva"
     },
     "respuesta_correcta": "D",
-    "imagen": "Rodante-29.png"
+    "imagen": "/Imagenes/Rodante-29.png"
   },
   {
     "id": "ROD-071-3",
@@ -14871,7 +14871,7 @@
       "D": "Sombrerete."
     },
     "respuesta_correcta": "B",
-    "imagen": "Rodante-30.png"
+    "imagen": "/Imagenes/Rodante-30.png"
   },
   {
     "id": "ROD-084-4",
@@ -14888,7 +14888,7 @@
       "D": "El cuadro de cargas no impone restricciones de velocidad."
     },
     "respuesta_correcta": "A",
-    "imagen": "Rodante-31.png"
+    "imagen": "/Imagenes/Rodante-31.png"
   },
   {
     "id": "ROD-070-10",
@@ -14905,7 +14905,7 @@
       "D": "Velo."
     },
     "respuesta_correcta": "C",
-    "imagen": "Rodante-32.png"
+    "imagen": "/Imagenes/Rodante-32.png"
   },
   {
     "id": "ROD-075-2",
@@ -14922,7 +14922,7 @@
       "D": "Amortiguación resistiva."
     },
     "respuesta_correcta": "C",
-    "imagen": "Rodante-33.png"
+    "imagen": "/Imagenes/Rodante-33.png"
   },
   {
     "id": "ROD-078",
@@ -15449,7 +15449,7 @@
       "D": "① Bretelle, ② Travesía y ③ Escape."
     },
     "respuesta_correcta": "B",
-    "imagen": "Infraestructura-1.png"
+    "imagen": "/Imagenes/Infraestructura-1.png"
   },
   {
     "id": "INF-065",
@@ -15500,7 +15500,7 @@
       "D": "Que se toma de talón y está orientada a vía desviada"
     },
     "respuesta_correcta": "B",
-    "imagen": "Infraestructura-2.png"
+    "imagen": "/Imagenes/Infraestructura-2.png"
   },
   {
     "id": "INF-061-2",
@@ -15551,7 +15551,7 @@
       "D": "Pontón."
     },
     "respuesta_correcta": "B",
-    "imagen": "Infraestructura-3.png"
+    "imagen": "/Imagenes/Infraestructura-3.png"
   },
   {
     "id": "INF-063",
@@ -15585,7 +15585,7 @@
       "D": "Medina del Campo."
     },
     "respuesta_correcta": "D",
-    "imagen": "Infraestructura-4.png"
+    "imagen": "/Imagenes/Infraestructura-4.png"
   },
   {
     "id": "INF-085-2",
@@ -15619,7 +15619,7 @@
       "D": "Laguna."
     },
     "respuesta_correcta": "D",
-    "imagen": "Infraestructura-5.png"
+    "imagen": "/Imagenes/Infraestructura-5.png"
   },
   {
     "id": "INF-065-3",
@@ -15636,7 +15636,7 @@
       "D": "En el trayecto entre la Estación A y la Estación E existe una LTV de 70 km/h."
     },
     "respuesta_correcta": "B",
-    "imagen": "Infraestructura-6.png"
+    "imagen": "/Imagenes/Infraestructura-6.png"
   },
   {
     "id": "INF-066",
