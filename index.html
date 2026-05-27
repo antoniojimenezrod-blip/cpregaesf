@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="theme-color" content="#0a0e1a">
+    <meta name="description" content="Banco de preguntas para el examen oficial AESF de maquinista de tren.">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="AESF">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icons/icon-192.png">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <title>Banco de Preguntas AESF — Maquinista</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Sora:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+
+    <!-- ===================== CANVAS CONFETTI (oculto, se muestra al aprobar) ===================== -->
+    <canvas id="confetti-canvas" class="confetti-canvas" aria-hidden="true"></canvas>
+
+    <!-- ===================== SPLASH DE CARGA ===================== -->
+    <div class="app-splash" id="app-splash">
+        <div class="splash-content">
+            <div class="splash-logo">
+                <svg viewBox="0 0 24 24" width="56" height="56" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="4" y="3" width="16" height="16" rx="2"/>
+                    <path d="M4 11h16"/>
+                    <path d="M8 19l-2 3"/>
+                    <path d="M16 19l2 3"/>
+                    <circle cx="9" cy="15" r="1"/>
+                    <circle cx="15" cy="15" r="1"/>
+                </svg>
+            </div>
+            <div class="splash-title">AESF</div>
+            <div class="splash-sub">Banco de preguntas — Maquinista</div>
+            <div class="splash-loader">
+                <div class="splash-loader-bar"></div>
+            </div>
+            <div class="splash-status" id="splash-status">Cargando 540 preguntas...</div>
+        </div>
+    </div>
+
+    <!-- ===================== CABECERA ===================== -->
+    <header class="app-header">
+        <div class="header-inner">
+            <button class="logo-btn" id="btn-home" aria-label="Ir al inicio">
+                <span class="logo-mark">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="4" y="3" width="16" height="16" rx="2"/>
+                        <path d="M4 11h16"/>
+                        <path d="M8 19l-2 3"/>
+                        <path d="M16 19l2 3"/>
+                        <circle cx="9" cy="15" r="1"/>
+                        <circle cx="15" cy="15" r="1"/>
+                    </svg>
+                </span>
+                <span class="logo-text">
+                    <span class="logo-title">AESF</span>
+                    <span class="logo-sub">Banco de preguntas</span>
+                </span>
+            </button>
+
+            <div class="header-actions">
+                <span class="exam-timer" id="exam-timer" hidden>
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="13" r="8"/>
+                        <path d="M12 9v4l2 2"/>
+                        <path d="M9 2h6"/>
+                    </svg>
+                    <span class="timer-text" id="timer-text">02:00:00</span>
+                </span>
+                <button class="header-icon-btn" id="btn-plan" aria-label="Plan de estudio" title="Plan de estudio">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"/>
+                        <line x1="16" y1="2" x2="16" y2="6"/>
+                        <line x1="8" y1="2" x2="8" y2="6"/>
+                        <line x1="3" y1="10" x2="21" y2="10"/>
+                        <path d="M9 16l2 2 4-4"/>
+                    </svg>
+                </button>
+                <button class="header-icon-btn" id="btn-stats" aria-label="Estadísticas" title="Mis estadísticas">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M3 3v18h18"/>
+                        <path d="M7 14l4-4 4 4 5-5"/>
+                    </svg>
+                </button>
+                <button class="header-icon-btn" id="btn-shortcuts" aria-label="Atajos de teclado" title="Atajos (?)">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="6" width="20" height="12" rx="2"/>
+                        <path d="M6 10h0M10 10h0M14 10h0M18 10h0M7 14h10"/>
+                    </svg>
+                </button>
+                <button class="header-icon-btn" id="btn-settings" aria-label="Ajustes" title="Ajustes">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="3"/>
+                        <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+                    </svg>
+                </button>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema">
+                    <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="4"/>
+                        <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+                    </svg>
+                    <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===================== PANTALLA INICIAL ===================== -->
+    <main class="screen" id="screen-home">
+        <div class="hero">
+            <span class="hero-eyebrow">Maquinista de tren · Examen oficial</span>
+            <h1 class="hero-title">Prepara el examen<br><em>como en la realidad.</em></h1>
+            <p class="hero-desc">80 preguntas · 2 horas · Máx. 12 fallos en reglamento, 7 en específicas.</p>
+        </div>
+
+        <!-- Widget de tarea de hoy (se rellena dinámicamente si hay plan activo) -->
+        <div id="home-plan-widget" hidden></div>
+
+        <section class="modes-grid">
+            <button class="mode-card mode-card--smart" data-mode="smart-study">
+                <div class="mode-card-head">
+                    <span class="mode-num">★</span>
+                    <span class="mode-tag">Adaptativo</span>
+                </div>
+                <h2 class="mode-name">Smart Study</h2>
+                <p class="mode-desc">Te muestra primero tus fallos y las preguntas que menos has visto. Estudio inteligente.</p>
+                <span class="mode-arrow">→</span>
+            </button>
+
+            <button class="mode-card mode-card--featured" data-mode="examen-oficial">
+                <div class="mode-card-head">
+                    <span class="mode-num">01</span>
+                    <span class="mode-tag">2 h · 80 preguntas</span>
+                </div>
+                <h2 class="mode-name">Examen oficial AESF</h2>
+                <p class="mode-desc">60 de reglamento + 20 de específicas con todos los temas. Corrige al final.</p>
+                <span class="mode-arrow">→</span>
+            </button>
+
+            <button class="mode-card" data-mode="examen-personalizado">
+                <div class="mode-card-head">
+                    <span class="mode-num">02</span>
+                    <span class="mode-tag">2 h · Eliges temas</span>
+                </div>
+                <h2 class="mode-name">Examen personalizado</h2>
+                <p class="mode-desc">Mismo formato, pero tú eliges qué libros y temas específicos entran.</p>
+                <span class="mode-arrow">→</span>
+            </button>
+
+            <button class="mode-card" data-mode="practica">
+                <div class="mode-card-head">
+                    <span class="mode-num">03</span>
+                    <span class="mode-tag">Sin tiempo</span>
+                </div>
+                <h2 class="mode-name">Práctica por tema</h2>
+                <p class="mode-desc">Corrección al instante. Ideal para estudiar tema por tema.</p>
+                <span class="mode-arrow">→</span>
+            </button>
+
+            <button class="mode-card" data-mode="infinitas">
+                <div class="mode-card-head">
+                    <span class="mode-num">04</span>
+                    <span class="mode-tag">Sin fin</span>
+                </div>
+                <h2 class="mode-name">Preguntas infinitas</h2>
+                <p class="mode-desc">Aleatorias de todo el banco hasta que decidas parar.</p>
+                <span class="mode-arrow">→</span>
+            </button>
+
+            <button class="mode-card" data-mode="repaso-rapido">
+                <div class="mode-card-head">
+                    <span class="mode-num">05</span>
+                    <span class="mode-tag">Solo correctas</span>
+                </div>
+                <h2 class="mode-name">Repaso rápido</h2>
+                <p class="mode-desc">Ves la pregunta y directamente la respuesta correcta. Memoria flash.</p>
+                <span class="mode-arrow">→</span>
+            </button>
+
+            <button class="mode-card" data-mode="muerte-subita">
+                <div class="mode-card-head">
+                    <span class="mode-num">06</span>
+                    <span class="mode-tag">Un fallo y fuera</span>
+                </div>
+                <h2 class="mode-name">Muerte súbita</h2>
+                <p class="mode-desc">Pregunta tras pregunta hasta que falles. Guarda tu récord.</p>
+                <span class="mode-arrow">→</span>
+            </button>
+
+            <button class="mode-card" data-mode="repasar-fallos" id="card-fallos">
+                <div class="mode-card-head">
+                    <span class="mode-num">07</span>
+                    <span class="mode-tag" id="fallos-count">0 falladas</span>
+                </div>
+                <h2 class="mode-name">Repasar mis fallos</h2>
+                <p class="mode-desc">Las preguntas que has fallado anteriormente.</p>
+                <span class="mode-arrow">→</span>
+            </button>
+
+            <button class="mode-card" data-mode="buscar">
+                <div class="mode-card-head">
+                    <span class="mode-num">08</span>
+                    <span class="mode-tag">540 preguntas</span>
+                </div>
+                <h2 class="mode-name">Buscador</h2>
+                <p class="mode-desc">Busca preguntas por palabra clave o código de tema.</p>
+                <span class="mode-arrow">→</span>
+            </button>
+
+            <button class="mode-card" data-mode="pdf">
+                <div class="mode-card-head">
+                    <span class="mode-num">09</span>
+                    <span class="mode-tag">Imprimible</span>
+                </div>
+                <h2 class="mode-name">Generar PDF</h2>
+                <p class="mode-desc">Examen profesional con enunciados, hoja de respuestas y solucionario.</p>
+                <span class="mode-arrow">→</span>
+            </button>
+        </section>
+
+        <footer class="home-stats" id="home-stats">
+            <span class="stat"><strong id="stat-total">—</strong> preguntas</span>
+            <span class="stat-sep">·</span>
+            <span class="stat"><strong id="stat-reg">—</strong> reglamento</span>
+            <span class="stat-sep">·</span>
+            <span class="stat"><strong id="stat-esp">—</strong> específicas</span>
+        </footer>
+    </main>
+
+    <!-- ===================== PANTALLA DE CONFIGURACIÓN DE MODO ===================== -->
+    <main class="screen" id="screen-config" hidden>
+        <div class="config-wrap">
+            <button class="back-btn" data-back="home">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                Volver
+            </button>
+            <h2 class="config-title" id="config-title">Configurar</h2>
+            <p class="config-desc" id="config-desc"></p>
+
+            <div id="config-content"></div>
+
+            <div class="config-actions">
+                <button class="btn-primary" id="btn-start">Comenzar</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- ===================== PANTALLA DE PREGUNTAS ===================== -->
+    <main class="screen screen-quiz" id="screen-quiz" hidden>
+        <div class="quiz-layout">
+
+            <!-- Panel lateral de navegación -->
+            <aside class="quiz-nav" id="quiz-nav">
+                <div class="quiz-nav-head">
+                    <h3 class="quiz-nav-title">Preguntas</h3>
+                    <span class="quiz-nav-counter" id="nav-counter">0 / 0</span>
+                </div>
+                <div class="quiz-nav-grid" id="nav-grid"></div>
+                <div class="quiz-nav-legend">
+                    <span class="legend-item"><span class="leg-dot leg-dot--current"></span>Actual</span>
+                    <span class="legend-item"><span class="leg-dot leg-dot--answered"></span>Contestada</span>
+                    <span class="legend-item"><span class="leg-dot leg-dot--flagged"></span>Marcada</span>
+                    <span class="legend-item"><span class="leg-dot leg-dot--unanswered"></span>Sin contestar</span>
+                </div>
+                <button class="btn-finish" id="btn-finish">Finalizar examen</button>
+            </aside>
+
+            <!-- Botón móvil para abrir nav -->
+            <button class="nav-mobile-toggle" id="nav-mobile-toggle" aria-label="Mostrar preguntas">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+                <span id="mobile-counter">0/0</span>
+            </button>
+
+            <!-- Contenido de la pregunta -->
+            <section class="quiz-main">
+                <div class="quiz-meta">
+                    <span class="meta-pill" id="meta-num">Pregunta 1</span>
+                    <span class="meta-pill meta-pill--ghost" id="meta-tema"></span>
+                    <button class="audio-btn" id="audio-btn" aria-label="Leer en voz alta" title="Leer en voz alta (espacio mantener)">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+                            <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                            <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                        </svg>
+                    </button>
+                    <button class="flag-btn" id="flag-btn" aria-label="Marcar para revisar">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V4h13l-2 4 2 4H4"/></svg>
+                        <span>Marcar</span>
+                    </button>
+                </div>
+
+                <h2 class="quiz-question" id="quiz-question"></h2>
+
+                <div class="quiz-image-wrap" id="quiz-image-wrap" hidden>
+                    <button class="quiz-image-btn" id="quiz-image-btn" aria-label="Ampliar imagen">
+                        <img id="quiz-image" alt="">
+                        <span class="zoom-hint">
+                            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg>
+                            Ampliar
+                        </span>
+                    </button>
+                </div>
+
+                <ol class="quiz-options" id="quiz-options"></ol>
+
+                <div class="quiz-feedback" id="quiz-feedback" hidden></div>
+
+                <button class="quiz-next-cta" id="quiz-next-cta">Siguiente pregunta →</button>
+
+                <div class="quiz-controls" id="quiz-controls">
+                    <button class="btn-secondary" id="btn-prev">
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+                        Anterior
+                    </button>
+                    <button class="btn-secondary" id="btn-next">
+                        Siguiente
+                        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+                    </button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- ===================== PANTALLA DE RESULTADOS ===================== -->
+    <main class="screen" id="screen-results" hidden>
+        <div class="results-wrap">
+            <button class="back-btn" data-back="home">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                Inicio
+            </button>
+
+            <div class="results-verdict" id="results-verdict"></div>
+
+            <div class="results-summary" id="results-summary"></div>
+
+            <div class="results-fails" id="results-fails"></div>
+
+            <div class="results-actions">
+                <button class="btn-secondary" id="btn-review-answers">Revisar respuestas</button>
+                <button class="btn-primary" id="btn-new-exam">Nuevo examen</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- ===================== PANTALLA DE BÚSQUEDA ===================== -->
+    <main class="screen" id="screen-search" hidden>
+        <div class="search-wrap">
+            <button class="back-btn" data-back="home">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                Volver
+            </button>
+            <h2 class="config-title">Buscador</h2>
+            <p class="config-desc">Busca por palabras clave del enunciado, código de tema (ej: <code>1.1.1</code>) o nombre del tema.</p>
+
+            <div class="search-bar">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg>
+                <input type="text" id="search-input" placeholder="Escribe aquí... (mín. 2 caracteres)" autocomplete="off">
+                <button class="search-clear" id="search-clear" hidden aria-label="Limpiar">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                </button>
+                <button class="search-filter-toggle" id="search-filter-toggle" aria-label="Filtros">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+                    <span>Filtros</span>
+                    <span class="search-filter-badge" id="search-filter-badge" hidden>0</span>
+                </button>
+            </div>
+
+            <div class="search-layout">
+                <aside class="search-filters" id="search-filters" hidden>
+                    <div class="search-filters-head">
+                        <h3>Filtros</h3>
+                        <button class="filter-reset" id="filter-reset">Restablecer</button>
+                    </div>
+                    <div id="search-filters-content"></div>
+                </aside>
+                <div class="search-results" id="search-results">
+                    <p class="search-hint">Empieza a escribir para buscar entre las 540 preguntas del banco.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ===================== PANTALLA DE PDF ===================== -->
+    <main class="screen" id="screen-pdf" hidden>
+        <div class="config-wrap">
+            <button class="back-btn" data-back="home">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                Volver
+            </button>
+            <h2 class="config-title">Generar PDF profesional</h2>
+            <p class="config-desc">Genera un examen imprimible con enunciados, hoja de respuestas y solucionario.</p>
+            <div id="pdf-config-content"></div>
+            <div class="config-actions">
+                <button class="btn-primary" id="btn-generate-pdf">Generar PDF</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- ===================== DETALLE DE PREGUNTA (desde buscador) ===================== -->
+    <main class="screen" id="screen-detail" hidden>
+        <div class="config-wrap">
+            <button class="back-btn" id="btn-back-search">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                Volver al buscador
+            </button>
+            <div id="detail-content"></div>
+        </div>
+    </main>
+
+    <!-- Contador flotante para modos infinitos -->
+    <div class="floating-counter" id="floating-counter" hidden>
+        <div class="floating-counter-stat">
+            <span class="floating-counter-label">Pregunta</span>
+            <span class="floating-counter-value" id="fc-num">1</span>
+        </div>
+        <div class="floating-counter-stat ok">
+            <span class="floating-counter-label">Aciertos</span>
+            <span class="floating-counter-value" id="fc-ok">0</span>
+        </div>
+        <div class="floating-counter-stat ko" id="fc-ko-wrap">
+            <span class="floating-counter-label">Fallos</span>
+            <span class="floating-counter-value" id="fc-ko">0</span>
+        </div>
+        <button class="floating-counter-end" id="fc-end">Terminar</button>
+    </div>
+
+    <!-- ===================== PANTALLA DE PLAN DE ESTUDIO ===================== -->
+    <main class="screen" id="screen-plan" hidden>
+        <div class="plan-wrap">
+            <button class="back-btn" data-back="home">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                Volver
+            </button>
+            <h2 class="config-title">Plan de estudio</h2>
+            <p class="config-desc">Te organizo qué estudiar cada día hasta tu examen. Con recordatorios para no olvidarte.</p>
+
+            <div id="plan-content"></div>
+        </div>
+    </main>
+
+    <!-- ===================== PANTALLA DE ESTADÍSTICAS ===================== -->
+    <main class="screen" id="screen-stats" hidden>
+        <div class="stats-wrap">
+            <button class="back-btn" data-back="home">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                Volver
+            </button>
+            <h2 class="config-title">Mis estadísticas</h2>
+            <p class="config-desc">Sigue tu evolución y descubre tus puntos débiles.</p>
+
+            <div id="stats-content"></div>
+        </div>
+    </main>
+
+    <!-- ===================== PANTALLA DE AJUSTES ===================== -->
+    <main class="screen" id="screen-settings" hidden>
+        <div class="config-wrap">
+            <button class="back-btn" data-back="home">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                Volver
+            </button>
+            <h2 class="config-title">Ajustes</h2>
+            <p class="config-desc">Gestiona tus datos guardados, voz y preferencias.</p>
+
+            <div id="settings-content"></div>
+        </div>
+    </main>
+
+    <!-- ===================== MODAL DE ATAJOS ===================== -->
+    <div class="shortcuts-modal" id="shortcuts-modal" hidden>
+        <div class="shortcuts-box">
+            <button class="shortcuts-close" id="shortcuts-close" aria-label="Cerrar">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+            </button>
+            <h3>Atajos de teclado</h3>
+            <p class="shortcuts-sub">Pulsa <kbd>?</kbd> en cualquier momento para abrir esta ayuda.</p>
+
+            <div class="shortcuts-section">
+                <h4>Responder preguntas</h4>
+                <div class="shortcut-row"><kbd>A</kbd> <kbd>B</kbd> <kbd>C</kbd> <kbd>D</kbd><span>Marcar la opción correspondiente</span></div>
+                <div class="shortcut-row"><kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd><span>Lo mismo, con teclas numéricas</span></div>
+            </div>
+
+            <div class="shortcuts-section">
+                <h4>Navegación</h4>
+                <div class="shortcut-row"><kbd>←</kbd> <kbd>→</kbd><span>Pregunta anterior / siguiente</span></div>
+                <div class="shortcut-row"><kbd>Enter</kbd><span>Siguiente pregunta (en modos infinitos)</span></div>
+                <div class="shortcut-row"><kbd>F</kbd><span>Marcar / desmarcar banderita</span></div>
+                <div class="shortcut-row"><kbd>V</kbd><span>Leer la pregunta en voz alta</span></div>
+                <div class="shortcut-row"><kbd>Esc</kbd><span>Cerrar diálogos abiertos</span></div>
+            </div>
+
+            <div class="shortcuts-section">
+                <h4>Generales</h4>
+                <div class="shortcut-row"><kbd>?</kbd><span>Abrir/cerrar esta ayuda</span></div>
+                <div class="shortcut-row"><kbd>H</kbd><span>Ir al inicio</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== MODAL DE TRANSICIÓN A ESPECÍFICAS ===================== -->
+    <div class="section-transition-modal" id="section-transition-modal" hidden>
+        <div class="section-transition-box">
+            <div class="section-transition-icon">
+                <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                </svg>
+            </div>
+            <div class="section-transition-eyebrow">Cambio de sección</div>
+            <h3 class="section-transition-title">Específicas</h3>
+            <p class="section-transition-desc">Has terminado las 60 preguntas de reglamento.<br>Empiezan las 20 preguntas específicas. Máximo 7 fallos permitidos en esta sección.</p>
+            <button class="section-transition-btn" id="section-transition-close">Continuar →</button>
+        </div>
+    </div>
+
+    <!-- ===================== MODAL DE IMAGEN AMPLIADA ===================== -->
+    <div class="image-modal" id="image-modal" hidden>
+        <button class="image-modal-close" id="image-modal-close" aria-label="Cerrar">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+        <img id="image-modal-img" alt="">
+    </div>
+
+    <!-- ===================== MODAL DE CONFIRMACIÓN ===================== -->
+    <div class="confirm-modal" id="confirm-modal" hidden>
+        <div class="confirm-box">
+            <h3 id="confirm-title">¿Estás seguro?</h3>
+            <p id="confirm-message"></p>
+            <div class="confirm-actions">
+                <button class="btn-secondary" id="confirm-no">Cancelar</button>
+                <button class="btn-primary btn-danger" id="confirm-yes">Sí, finalizar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===================== ERROR DE CARGA ===================== -->
+    <div class="loading-error" id="loading-error" hidden>
+        <h3>No se pudo cargar el banco de preguntas</h3>
+        <p>Comprueba que el archivo <code>preguntas.json</code> está en la misma carpeta que <code>index.html</code>.</p>
+        <p class="error-detail" id="error-detail"></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script>
+        // Registro de Service Worker para PWA
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js').catch(err => {
+                    console.warn('SW registro fallido:', err);
+                });
+            });
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
