@@ -65,6 +65,28 @@ function sample(arr, n) {
     return shuffle(arr).slice(0, n);
 }
 
+// Resolver la URL de una imagen, limpiando el campo `imagen` por si trae
+// rutas completas o subcarpetas mezcladas (errores típicos al rellenar el Excel)
+function rutaImagen(nombreOriginal) {
+    if (!nombreOriginal) return '';
+    let nombre = String(nombreOriginal).trim();
+    // Si trae una URL completa, quedarse solo con la parte después del último /
+    if (nombre.includes('/')) {
+        nombre = nombre.split('/').pop();
+    }
+    // Si trae barra invertida (Windows), también
+    if (nombre.includes('\\')) {
+        nombre = nombre.split('\\').pop();
+    }
+    // Quitar comillas accidentales
+    nombre = nombre.replace(/['"]/g, '');
+    // Si no tiene extensión, asumir .png
+    if (nombre && !/\.(png|jpe?g|gif|webp|svg)$/i.test(nombre)) {
+        nombre += '.png';
+    }
+    return `imagenes/${nombre}`;
+}
+
 // ============================================================
 // CONFETTI (celebración al aprobar)
 // ============================================================
@@ -2083,7 +2105,7 @@ function renderQuiz() {
     if (pregunta.imagen) {
         imgWrap.hidden = false;
         img.style.display = '';
-        img.src = `imagenes/${pregunta.imagen}`;
+        img.src = rutaImagen(pregunta.imagen);
         img.alt = `Imagen pregunta ${q.indice + 1}`;
         // Si la imagen no existe, mostrar mensaje visible
         img.onerror = () => {
@@ -2095,7 +2117,7 @@ function renderQuiz() {
             const div = document.createElement('div');
             div.className = 'img-error';
             div.style.cssText = 'padding:20px; text-align:center; color:var(--danger); border:1px dashed var(--danger); border-radius:8px; background:var(--danger-dim);';
-            div.innerHTML = `⚠ No se pudo cargar la imagen<br><small style="color:var(--text-3); font-family:monospace; font-size:11px;">imagenes/${pregunta.imagen}</small>`;
+            div.innerHTML = `⚠ No se pudo cargar la imagen<br><small style="color:var(--text-3); font-family:monospace; font-size:11px;">${rutaImagen(pregunta.imagen)}</small>`;
             imgWrap.appendChild(div);
         };
         img.onload = () => {
@@ -2759,7 +2781,7 @@ function abrirImagenAmpliada() {
     const q = state.quiz;
     const pregunta = q.preguntas[q.indice];
     if (!pregunta.imagen) return;
-    $('#image-modal-img').src = `imagenes/${pregunta.imagen}`;
+    $('#image-modal-img').src = rutaImagen(pregunta.imagen);
     $('#image-modal').hidden = false;
     document.body.style.overflow = 'hidden';
 }
@@ -2931,8 +2953,9 @@ function mostrarDetallePregunta(id) {
         `;
     }).join('');
 
+    const rutaImg = p.imagen ? rutaImagen(p.imagen) : '';
     const imagenHtml = p.imagen
-        ? `<button class="detail-image quiz-image-btn" onclick="(function(){document.getElementById('image-modal-img').src='imagenes/${p.imagen}';document.getElementById('image-modal').hidden=false;document.body.style.overflow='hidden';})()"><img src="imagenes/${p.imagen}" alt="Imagen pregunta" onerror="this.parentElement.innerHTML='<div style=&quot;padding:30px; text-align:center; color:var(--danger);&quot;>⚠ No se pudo cargar la imagen<br><small style=&quot;color:var(--text-3); font-family:monospace; font-size:11px;&quot;>imagenes/${p.imagen}</small></div>'"></button>`
+        ? `<button class="detail-image quiz-image-btn" onclick="(function(){document.getElementById('image-modal-img').src='${rutaImg}';document.getElementById('image-modal').hidden=false;document.body.style.overflow='hidden';})()"><img src="${rutaImg}" alt="Imagen pregunta" onerror="this.parentElement.innerHTML='<div style=&quot;padding:30px; text-align:center; color:var(--danger);&quot;>⚠ No se pudo cargar la imagen<br><small style=&quot;color:var(--text-3); font-family:monospace; font-size:11px;&quot;>${rutaImg}</small></div>'"></button>`
         : '';
 
     // Acciones (dominar, marcar fallada, leer en voz alta)
@@ -3263,7 +3286,7 @@ async function crearPDF(preguntas, titulo, opts, progress) {
         // Imagen (opcional)
         if (opts.incluirImagenes && p.imagen) {
             try {
-                const imgData = await cargarImagenComoDataURL(`imagenes/${p.imagen}`);
+                const imgData = await cargarImagenComoDataURL(rutaImagen(p.imagen));
                 if (imgData) {
                     if (y + 50 > PAGE_H - MARGIN_BOTTOM) nuevaPagina();
                     const props = doc.getImageProperties(imgData);

@@ -11,7 +11,7 @@
 // se aplica.
 // ===================================================================
 
-const SW_VERSION = '1.0.2';   // <-- cámbiame al subir cambios
+const SW_VERSION = '1.0.3';   // <-- cámbiame al subir cambios
 const CACHE_NAME = `aesf-static-${SW_VERSION}`;
 const CACHE_DYNAMIC = `aesf-dynamic-${SW_VERSION}`;
 
