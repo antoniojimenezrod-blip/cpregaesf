@@ -2082,13 +2082,32 @@ function renderQuiz() {
     const img = $('#quiz-image');
     if (pregunta.imagen) {
         imgWrap.hidden = false;
+        img.style.display = '';
         img.src = `imagenes/${pregunta.imagen}`;
         img.alt = `Imagen pregunta ${q.indice + 1}`;
-        // Si la imagen no existe, ocultamos el wrap
-        img.onerror = () => { imgWrap.hidden = true; };
+        // Si la imagen no existe, mostrar mensaje visible
+        img.onerror = () => {
+            img.style.display = 'none';
+            imgWrap.hidden = false;
+            // Quitar cualquier aviso anterior
+            const aviso = imgWrap.querySelector('.img-error');
+            if (aviso) aviso.remove();
+            const div = document.createElement('div');
+            div.className = 'img-error';
+            div.style.cssText = 'padding:20px; text-align:center; color:var(--danger); border:1px dashed var(--danger); border-radius:8px; background:var(--danger-dim);';
+            div.innerHTML = `⚠ No se pudo cargar la imagen<br><small style="color:var(--text-3); font-family:monospace; font-size:11px;">imagenes/${pregunta.imagen}</small>`;
+            imgWrap.appendChild(div);
+        };
+        img.onload = () => {
+            const aviso = imgWrap.querySelector('.img-error');
+            if (aviso) aviso.remove();
+            img.style.display = '';
+        };
     } else {
         imgWrap.hidden = true;
         img.src = '';
+        const aviso = imgWrap.querySelector('.img-error');
+        if (aviso) aviso.remove();
     }
 
     // Opciones
@@ -2913,7 +2932,7 @@ function mostrarDetallePregunta(id) {
     }).join('');
 
     const imagenHtml = p.imagen
-        ? `<button class="detail-image quiz-image-btn" onclick="(function(){document.getElementById('image-modal-img').src='imagenes/${p.imagen}';document.getElementById('image-modal').hidden=false;document.body.style.overflow='hidden';})()"><img src="imagenes/${p.imagen}" alt="Imagen pregunta" onerror="this.parentElement.style.display='none'"></button>`
+        ? `<button class="detail-image quiz-image-btn" onclick="(function(){document.getElementById('image-modal-img').src='imagenes/${p.imagen}';document.getElementById('image-modal').hidden=false;document.body.style.overflow='hidden';})()"><img src="imagenes/${p.imagen}" alt="Imagen pregunta" onerror="this.parentElement.innerHTML='<div style=&quot;padding:30px; text-align:center; color:var(--danger);&quot;>⚠ No se pudo cargar la imagen<br><small style=&quot;color:var(--text-3); font-family:monospace; font-size:11px;&quot;>imagenes/${p.imagen}</small></div>'"></button>`
         : '';
 
     // Acciones (dominar, marcar fallada, leer en voz alta)
